@@ -3,7 +3,9 @@ module.exports = {
   content: ["**/*.{js, jsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {random: '#FF69B4'}
+    },
   },
   variants: {
     extend: {},
